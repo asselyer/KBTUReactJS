@@ -1,7 +1,14 @@
 .App {
 
 }
-
+.left{
+  width:400px;
+  float: left;
+}
+.right{
+  width: 400px;
+  float: right;
+}
 .App-logo {
   margin: 50px;
   height: 200px;

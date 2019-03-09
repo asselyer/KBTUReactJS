@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { Switch, Route, Link } from 'react-router-dom'; // import the react-router-dom components
-import { Home, Page1, Page2, Page3 } from './pages'
+import { Home } from './pages'
+import Contact from './components/Contact';
+import About from './components/About';
+import Order from './components/Order';
+
 
 class NavLink extends Component {
 
@@ -24,9 +28,9 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home} />
-      <Route exact path='/1' component={Page1}/>
-      <Route exact path='/2' component={Page2} />
-      <Route exact path='/3' component={Page3} />
+      <Route exact path='/1' component={Order}/>
+      <Route exact path='/2' component={About} />
+      <Route exact path='/3' component={Contact} />
     </Switch>
   </main>
 )
