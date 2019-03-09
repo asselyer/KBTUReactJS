@@ -11,8 +11,8 @@ class Order extends Component {
       
       <Card className="text-center">
         <Card.Header>Заказ браслетов</Card.Header>
-      <Form>
-  <Form.Row>
+      <Form style={{padding: '10px'}}>
+  <Form.Row >
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Email</Form.Label>
       <Form.Control type="email" placeholder="Enter email" />
@@ -65,7 +65,7 @@ class Order extends Component {
 </Card>
 </Row>
 <Row className="right">
-<Card style={{ width: '18rem' }}>
+<Card style={{ width: '30rem', height: '470px' }}>
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
