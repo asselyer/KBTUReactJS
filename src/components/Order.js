@@ -4,8 +4,8 @@ import '../App.css';
 
 class Order extends Component {
   render() {
-    return (
-      <Container>
+    return (      
+      <div className="banner">
         <br/>
       <Row className="left" >
       
@@ -65,7 +65,7 @@ class Order extends Component {
 </Card>
 </Row>
 <Row className="right">
-<Card style={{ width: '30rem', height: '470px' }}>
+<Card style={{ width: '30rem', height: '493px', backgroundColor:'rgba(255,255,255,0.8)' }}>
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -78,7 +78,7 @@ class Order extends Component {
   </Card.Body>
 </Card>
 </Row>
-</Container>
+</div>
     );
   }
 }

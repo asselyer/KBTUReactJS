@@ -1,13 +1,20 @@
 .App {
 
 }
+.banner{
+  padding-left: 150px;
+  padding-right: 100px;
+  height: 700px;
+  background-color: #282c34;
+}
 .left{
   width:400px;
   float: left;
 }
 .right{
+  margin-left: 120px;
   width: 600px;
-  float: right;
+  float: left;
 }
 .App-logo {
   margin: 50px;
