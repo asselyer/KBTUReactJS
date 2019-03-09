@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import logo from './img/logo.png';
 import './App.css';
 
-import navigation from './components/navigation';
-import { Nav, Form, Button, FormControl } from 'react-bootstrap';
 import { Switch, Route, Link } from 'react-router-dom'; // import the react-router-dom components
 import { Home, Page1, Page2, Page3 } from './pages'
 
